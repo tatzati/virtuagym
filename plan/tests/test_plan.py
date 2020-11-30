@@ -1,3 +1,4 @@
+from django.contrib.auth import get_user_model
 from faker import Faker
 from django.test import TestCase
 
@@ -30,5 +31,5 @@ class PlansListCreateAPITest(ListCreateBaseTestCase, TestCase):
     name = Faker().name()
     model_testing_field = 'name'
     model_testing_field_value = name
-    valid_data = {'name': name, 'users': [1, 2]}
+    valid_data = {'name': name, 'users': []}
     invalid_data = {'invalid': 'ha'}

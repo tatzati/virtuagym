@@ -52,11 +52,11 @@ class ListCreateBaseTestCase:
         3. returns a 201 CREATED status code
         """
         response = self.client.post(self.url, self.valid_data, format=constants.JSON_FORMAT)
-        self.assertEqual(self.model_class.objects.count(), 1)
         self.assertEqual(
             getattr(self.model_class.objects.first(), self.model_testing_field),
             self.model_testing_field_value
         )
+        self.assertEqual(self.model_class.objects.count(), 1)
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
 
 
