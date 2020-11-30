@@ -1,0 +1,14 @@
+[
+  {
+    "model": "agent.user",
+    "pk": 1,
+    "fields": {
+      "email": "admin@admin.com",
+      "name": "admin",
+      "password": "pbkdf2_sha256$180000$4X8lBli4nRIz$QVzzRgcMO13jPPCJzMYFC+nS60M/Ec+WzeOwMrx/ph0=",
+      "is_staff": true,
+      "is_active": true,
+      "is_superuser": true
+    }
+  }
+]

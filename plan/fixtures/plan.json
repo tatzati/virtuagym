@@ -1,0 +1,78 @@
+[
+  {
+    "model": "plan.plan",
+    "pk": 1,
+    "fields": {
+      "name": "Week 1"
+    }
+  },
+  {
+    "model": "plan.plan",
+    "pk": 2,
+    "fields": {
+      "name": "Week 2"
+    }
+  },
+  {
+    "model": "plan.plan",
+    "pk": 3,
+    "fields": {
+      "name": "Week 3"
+    }
+  },
+  {
+    "model": "plan.plan",
+    "pk": 4,
+    "fields": {
+      "name": "Week 4"
+    }
+  },
+  {
+    "model": "plan.workout",
+    "pk": 1,
+    "fields": {
+      "name": "Chest",
+      "plan_id": 1
+    }
+  },
+  {
+    "model": "plan.workout",
+    "pk": 2,
+    "fields": {
+      "name": "Back",
+      "plan_id": 1
+    }
+  },
+  {
+    "model": "plan.workout",
+    "pk": 3,
+    "fields": {
+      "name": "Legs",
+      "plan_id": 1
+    }
+  },
+  {
+    "model": "plan.activity",
+    "pk": 1,
+    "fields": {
+      "name": "Bench Press",
+      "workout_id": 1
+    }
+  },
+  {
+    "model": "plan.activity",
+    "pk": 2,
+    "fields": {
+      "name": "Inclined Row",
+      "workout_id": 2
+    }
+  },
+  {
+    "model": "plan.activity",
+    "pk": 3,
+    "fields": {
+      "name": "Leg Press",
+      "workout_id": 3
+    }
+  }
+]
